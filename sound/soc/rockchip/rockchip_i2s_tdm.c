@@ -66,7 +66,7 @@
 #define MULTIPLEX_CH_MAX			10
 #define CLK_PPM_MIN				(-1000)
 #define CLK_PPM_MAX				(1000)
-#define MAXBURST_PER_FIFO			8
+#define MAXBURST_PER_FIFO			16
 #define WAIT_TIME_MS_MAX			10000
 
 #define TRCM_TXRX				0
