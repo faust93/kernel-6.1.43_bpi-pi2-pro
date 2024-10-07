@@ -133,11 +133,11 @@ dmaengine_pcm_set_runtime_hwparams(struct snd_soc_component *component,
 	struct snd_dmaengine_dai_dma_data *dma_data;
 	struct snd_pcm_hardware hw;
 
-	if (rtd->num_cpus > 1) {
-		dev_err(rtd->dev,
-			"%s doesn't support Multi CPU yet\n", __func__);
-		return -EINVAL;
-	}
+//	if (rtd->num_cpus > 1) {
+//		dev_err(rtd->dev,
+//			"%s doesn't support Multi CPU yet\n", __func__);
+//		return -EINVAL;
+//	}
 
 	dma_data = snd_soc_dai_get_dma_data(asoc_rtd_to_cpu(rtd, 0), substream);
 
